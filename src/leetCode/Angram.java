@@ -49,7 +49,7 @@ public class Angram {
     	return opList;
     }	
     
-    public static boolean isAnagram (String src,String anagram,List<Integer> angramList) {
+    public static boolean  isAnagram (String src,String anagram,List<Integer> angramList) {
     	StringBuilder srcBuilder = new StringBuilder(src);
     	//System.out.println("src>> "+src);
         boolean found = false;
